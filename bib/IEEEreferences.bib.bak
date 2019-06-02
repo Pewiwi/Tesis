@@ -135,3 +135,18 @@ year=2018
   year = "2012"
 }
 
+@article {Ornes9686,
+	author = {Ornes, Stephen},
+	title = {Science and Culture: Can the principles of topology help improve the world{\textquoteright}s slums?},
+	volume = {116},
+	number = {20},
+	pages = {9686--9689},
+	year = {2019},
+	doi = {10.1073/pnas.1904847116},
+	publisher = {National Academy of Sciences},
+	issn = {0027-8424},
+	URL = {https://www.pnas.org/content/116/20/9686},
+	eprint = {https://www.pnas.org/content/116/20/9686.full.pdf},
+	journal = {Proceedings of the National Academy of Sciences}
+}
+
