@@ -4,25 +4,25 @@
 \title{Degree work}
 \usepackage[utf8]{inputenc} % File coding uses utf8
 \usepackage{amsmath} % Extra commands for math
+\usepackage{amsthm}
 \usepackage{amssymb} % Math symbols 
 \newtheorem{definition}{Definition}
 \newtheorem{theorem}{Theorem}
 \newtheorem{corollary}{Corollary}[theorem]
 \usepackage{graphicx} % Include images in LaTeX
 \usepackage{color} % Coloring text
-\usepackage{subfigure} % Manage multiple figures
+%\usepackage{subfigure} % Manage multiple figures
 \usepackage{float} % Allow you to use [H] specifier to force the position of the images 
-\usepackage{subfig}
+%\usepackage{subfig}
 
-
-\usepackage{capt-of} % Defines a command \captionof for putting a caption to something that’s not a float.
-\usepackage{sidecap} % Defines environments called SCfigure and SCtable (analogous to figure and table) to typeset captions sideways
-	\sidecaptionvpos{figure}{c} % Alignment
+%\usepackage{capt-of} % Defines a command \captionof for putting a caption to something that’s not a float.
+%\usepackage{sidecap} % Defines environments called SCfigure and SCtable (analogous to figure and table) to typeset captions sideways
+%	\sidecaptionvpos{figure}{c} % Alignment
 \usepackage{caption} % to customize the captions in floating environments like figure and table
 \usepackage{commath} % Mathematics typesetting support
 \usepackage{cancel} % Place lines through maths formulae
 \usepackage{anysize} % to set up document margins
-\marginsize{2cm}{2cm}{2cm}{2cm} % Left, right, up, down
+\marginsize{2,54cm}{2,54cm}{2,54cm}{2,54cm} % Left, right, up, down
 \usepackage{appendix} %Extra control of appendices
 
 % Refereces as links with colors
@@ -80,18 +80,18 @@
     \includegraphics[scale = 0.75]{images/yachaytech}
   \end{flushright}\end{minipage}
 
-  \vspace*{-2.5cm}
+  \vspace*{-3cm}
   \textsc{\huge Universidad de Investigaci\'on \\
   \vspace{5px} de Tecnolog\'ia Experimental \\
   \vspace{10px} Yachay}\\
 
   \vspace*{1.5cm}
 
-  \textsc{\LARGE School of Mathematical and Computational Sciences}\\[1.5cm]
+  \textsc{\Large School of Mathematical and Computational Sciences}\\[2cm]
 
   \begin{minipage}{0.9\textwidth} 
     \begin{center}
-      \textsc{\LARGE Final Grade Project}
+      \textsc{\Large Final Grade Project}
     \end{center}
   \end{minipage}\\[0.5cm]
   
@@ -103,7 +103,7 @@ cities}\\[0.4cm]
   { \large 
     \emph{Author:} \\	
       Saulo Javier Ronquillo Guachamin \\
-    \vspace*{1.5cm}
+    \vspace*{1cm}
     \emph{Adviser:} \\
       Hermann Mena	\\
   }
@@ -111,7 +111,7 @@ cities}\\[0.4cm]
   \vspace{2cm}
     Requirement for obtaining the grade of Mathematician.	\\	
 
-  \vspace{3cm} 	
+  \vspace{2cm} 	
   \begin{center}
     {Urcuquí - \today}
   \end{center}
@@ -144,7 +144,9 @@ Nowadays, one of the most recommended strategies by the United Nations Human Set
 
 However, the development of new streets is often an expensive process, especially for developing countries. Consequently, it is necessary to plan the construction of new roads minimizing the investment. For this purpose, a mathematical approach seems to be a suitable tool to solve this problem\cite{bre}.\\
 
-Several researchers have analyzed cities under different approaches. Some of them have tried to explain the shape of cities based on fractals, while others have used the ideas behind cellular automata to understand the complex system of how cities evolve\cite{d2019mathematics}. The approach that is going to be discussed here is the topological approach to cities, which was used by  Brelsford et al. to understand the differences that exist between slums and planned neighborhoods\cite{bre}.\\
+Several researchers have analyzed cities under different approaches. Some of them have tried to explain the shape of cities based on fractals, while others have used the ideas behind cellular automata to understand the complex system of how cities evolve\cite{d2019mathematics}. The approach that is going to be discussed here use tools of topological graph theory to study the differents between planned neighborhoods and slums\cite{bre}.\\
+
+Since the beginning of graph theory, this has been used to better understand cities. In 1735, Leonhard Euler founded this theory to solve what is known as the problem of the bridges of K\"{o}nigsberg\cite{alexanderson2006cover}. This problem wanted to define the way in which a citizen of K\"{o}nigsberg could travel the city crossing its seven bridges and return home. Euler quickly noticed that "this branch is concerned only with the determination of position and its properties; It does not involve distances, nor calculations made with them"\cite{alexanderson2006cover}. Some historians believe that the paper of K\"{o}nigsberg is also the precursor of what we now know as Topology since the solution of this problem opens the way to the study of the Hamiltonean circuits, something that continues to be investigated these days\cite{alexanderson2006cover}.\\
 
 In an article by Luis Bettencourt and Geoffrey West for the journal Nature, they indicate that "New York and Tokyo are, to a surprising and predictable degree, non-linear versions of San Francisco in California or Nagoya in Japan"\cite{bettencourt2010unified}. This means that there are common properties between cities and that a city can be considered as an approximately scaled version of another. This same fact is used by  Brelsford et al. because they identify that regardless of the appearance of the neighborhoods there are topological properties that vary if a planned neighborhood or a slum is analyzed\cite{bre}. And moreover, they show that it is possible to change the configuration of a slum to eliminate these differences with planned neighborhoods\cite{bre}.\\
 
@@ -305,7 +307,7 @@ The \emph{Poincar\'e dual embedding} for a cellular graph embedding $G\xrightarr
 The topology of cities/neighborhoods can be understood as the topological relationship between the two main components of the city: its streets and its buildings. This is the reason why it is necessary to understand the topology of the access systems and the topology of the constructions, to then see how they are related according to each city.
 
 \subsubsection{Topology of Access System}
-The set of paths and roads of any city is called urban access system. The access system has the property of be \textbf{path-connected}, i.e., any two points in this surface can be connected traveling on the surface. Moreover, access systems are \textbf{orientable}, \textbf{2-dimensional surface} and \textbf{compact}. This means that there is a global definition of up from down, we can only move on road and path surfaces and the surface is finite. \\
+The set of paths and roads of any city is called urban access system. The access system has the property of be \textbf{path-connected}, i.e., any two points in this surface can be connected traveling on the surface. Moreover, access systems are \textbf{orientable}, \textbf{2-dimensional surface} and \textbf{compact}. This properties are realated with the following facts: there is a global definition of up from down, we can only move on road and path surfaces and the surface is finite.\\
 
 Moreover, the urban access system is a 2D surface with both \textbf{internal} and \textbf{external boundaries}: The limit of the city is the external boundary, while boundaries between accesses and each places are the internal boundaries. So, for a city with $b$ blocks there are $b$ internal boundaries and one external boundary so that the total number of boundary components, $B$, is $B = b+1$. In this sense, a city subsection is define as a set of contiguous city blocks and surrounding access system, including an external boundary that defines the physical limits of the subsection, see fig.(). When a subsection includes all blocks it is equivalent to the city, and shares its entire access system.\\
 
@@ -317,6 +319,11 @@ This deductions are summarize in the following theorem and corollaries:\\
 \begin{theorem}[Topological Classes of Urban Access System]
 The access system of any city with $b$ blocks is topologically equivalent to a sphere with $B=b+1$ disks removed.
 \end{theorem}
+\begin{proof}
+The proof of this theorem is based on the fact that the surfaces with boundaries can be constructed by removing open discs from the surfaces without boundary. Therefore, as the access system is orientable, 2-dimension and has genus zero; it is topologycal equivalent to a sphere but with b+1 open discs removed. 
+\end{proof}
+
+The proof of the following four corollaries are trivial by the definition of topological equivalence and the previous theorem. So we proceed with the demonstration of the fifth corollary.
 
 \begin{corollary}
     For any value of $b$, two cities with $b$ blocks have access systems that are topologically equivalent, since both cities’ access systems are topologically equivalent to a sphere with $b+1$ disks removed.
@@ -337,6 +344,22 @@ The access system of any city with $b$ blocks is topologically equivalent to a s
 \begin{corollary}
     A 1-complex graph representation of an urban access system with $b$ blocks, where edges correspond to road and path centerlines and nodes correspond to their intersections, called the urban access network, $Y$, has the same Euler characteristic as the urban access system, $\chi(Y)=1-b$. 
 \end{corollary}
+\begin{proof}
+	Let's compute the Euler characteristic of a general surface $S$ with $B$ boundaries.\\
+	
+	First define a surface $C$, where $S^*$ corresponds to $S$ with all the $B$ boundaries patched by disks.\\
+	
+	Then,	$\chi(S^*)=\chi(S)+B*\chi(Disk)$.\\
+	Since, $\chi(Disk)=1$ and $\chi(S^*)=2$ because $S^*$ is a sphere.\\
+	
+	$\chi(S)=2-(1+b)=1-b$.\\
+	
+	On the other hand, a 2-complex planar graph has $\chi=v-e+f=2$, while a 1-complex planar graph has $\chi=v-e$. Let be $Y_2$ a 2-complex graph representation of the urban access system, then, $Y_2$ has one face per each boundary so $f=b+1$.\\
+	
+	Then,	$\chi(Y_2)=v-e+f=2$\\
+	$v-e=2-f=1-b=\chi(Y)$\\
+	Therefore, $\chi(Y)=\chi(S)=1-b$
+\end{proof}
 
 
 \subsubsection{Topology of City Blocks}
@@ -344,6 +367,30 @@ The access system of any city with $b$ blocks is topologically equivalent to a s
 Brelsford et. al. use the general term parcel in \cite{bre} to denote the decomposition of the city block land area into separate units: these are buildings, or more generally, separate land holdings and include public places that are not accesses. When a parcel is adjacent to the access network is said that this parcel is accessible. In the case where the parcel is not adjacent to the access network is internal to the block, this implies that its access is mediated through other parcels. However, interior parcels can be connected to the urban access system by converting edges in the $S_0$ graph from parcel boundaries to roads, where the edges of $S_0$ correspond to the boundaries of each parcels and its nodes to their intersections, see fig().\\
 
 One characteristic of mostly planned neighborhood is that all their parcels are accessible, since slums are more likely to have inaccessible parcels \cite{unh}. Then, the connectivity of the neighborhoods seems to be useful to look at them. This characteristic of the neighborhood can be analyzed using a metric $k_{max}$, called block complexity, which measure the connectivity of a city block. Additionally, they have show that it is possible to find $k_{max}$ by iterating the construction of weak dual graphs to $S_0$; the weak dual graph of $S_0$ is $S_1$, where each parcel becomes a node and adjacency becomes and edge. This procedure should be done iteratively ($S_{k-1}\longrightarrow S_k$) until there is not more parcels in the graph $S_k$. Moreover, they found that the complexity of universally accessible block (blocks with all parcels accessible) is $k \leq 2$, while non-universally accessible blocks (blocks with interior parcels) will have $k>2$. Furthermore, a block S is universally accessible if and only if $S_2$ is a tree. And, if a parcel is represented with a node in the $S_k$ graph, at least $\frac{k-1}{2}$ parcel boundaries must be crossed in order to reach it from the nearest section of the access system.\\
+
+Finally, in the minimal set of additional roads necessary to have a universal accessible block there will be no loops. Thus, newly constructed roads in the minimal set of accesses form a tree or set of trees (culs-de-sac). This feature is interesting because loopless configurations are seem in river basins where every spanning tree is exactly a local minimum of total energy dissipation \cite{and}.\\
+
+These statements are shown in more detail below.
+
+\begin{definition}
+A block $S$ is called universally accessible if every parcel within $S$ borders a road.  Otherwise, $S$ is not universally accessible.
+\end{definition}
+
+\begin{definition}[minimal set of accesses]
+Interior parcels can be connected to the urban access system by converting edges in the $S_0$ graph from parcel boundaries to roads.  The minimal set of additional roads necessary to connect a given parcel to the road system is the set of edges with the shortest total length such that at least one node contained in the set of edges to be converted is part of an existing road, and at least one node is part of the face in $S_0$ that surrounds the parcel.
+\end{definition}
+
+\begin{definition}
+In a graph $G$, a cycle is a collection of $m$ vertices and $m$ edges arranged so that each vertex has exactly two edges incident to it, where $m \ge 3$.
+\end{definition}
+
+\begin{definition}
+A face of a planar graph is a maximal region in the plane that contains no edge or vertex of the graph.
+\end{definition}
+
+\begin{definition}[Weak Dual Graphs]
+For each bounded face of $S_0$, we assign a vertex in $S_1$. Two vertices of $S_1$ have an edge between them if and only if the faces of $S_0$ they represent share a common border of at least one edge in $S_0$. Then, $S_1$ is the weak dual graph of $S_0$. For a block $S$, we may then assign a stage $k$ graph, $S_k$, defined recursively by repeating the process used to construct $S_1$ from $S_0$ on the stage $k-1$ graph $S_{k-1}$.
+\end{definition}
 
 \begin{figure}[H]
     \centering
@@ -368,28 +415,6 @@ One characteristic of mostly planned neighborhood is that all their parcels are 
 \end{figure}
 
 
-Finally, in the minimal set of additional roads necessary to have a universal accessible block there will be no loops. Thus, newly constructed roads in the minimal set of accesses form a tree or set of trees (culs-de-sac). This feature is interesting because loopless configurations are seem in river basins where every spanning tree is exactly a local minimum of total energy dissipation \cite{and}.\\
-
-\begin{definition}
-A block $S$ is called universally accessible if every parcel within $S$ borders a road.  Otherwise, $S$ is not universally accessible.
-\end{definition}
-
-\begin{definition}[minimal set of accesses]
-Interior parcels can be connected to the urban access system by converting edges in the $S_0$ graph from parcel boundaries to roads.  The minimal set of additional roads necessary to connect a given parcel to the road system is the set of edges with the shortest total length such that at least one node contained in the set of edges to be converted is part of an existing road, and at least one node is part of the face in $S_0$ that surrounds the parcel.
-\end{definition}
-
-\begin{definition}
-In a graph $G$, a cycle is a collection of $m$ vertices and $m$ edges arranged so that each vertex has exactly two edges incident to it, where $m \ge 3$.
-\end{definition}
-
-\begin{definition}
-A face of a planar graph is a maximal region in the plane that contains no edge or vertex of the graph.
-\end{definition}
-
-\begin{definition}[Weak Dual Graphs]
-For each bounded face of $S_0$, we assign a vertex in $S_1$. Two vertices of $S_1$ have an edge between them if and only if the faces of $S_0$ they represent share a common border of at least one edge in $S_0$. Then, $S_1$ is the weak dual graph of $S_0$. For a block $S$, we may then assign a stage $k$ graph, $S_k$, defined recursively by repeating the process used to construct $S_1$ from $S_0$ on the stage $k-1$ graph $S_{k-1}$.
-\end{definition}
-
 \begin{definition}
 A vertex $v$ of a graph $G$ is called an $interior\ vertex$ if there exists a cycle surrounding $v$ so that deleting this cycle from $G$ results in either:
     \begin{enumerate}
@@ -410,14 +435,29 @@ The complexity of universally accessible blocks is $k \leq 2$. Non-universally a
 \begin{theorem}
     A block $S$ is universally accessible if and only if its stage-two graph, $S_2$, is a tree.
 \end{theorem}
+\begin{proof}
+Let's assume tha $S_2$ is not a tree.  This means that there exists an interior face of $S_2$ whose boundary is a cycle $\sigma$ consisting of $m$ vertices${x_1, x_2, ...,x_m}$ of $S_2$ and $m$ edges. Each vertex $x_i$ in $\sigma$ represents a face $f_i$ of $S_1$, where face $f_i$bshares a common edge with face $f_{i-1}$(mod m)and face $f_{i+1}$(mod m). Furthermore, each of these shared edges is incident to a vertex $v$ of $S_1$ that represents the interior face of $S_2$. Thus, the cycle $\sigma$ in $S_2$ corresponds to a subgraph of $S_1$ consisting of the $m$ faces, ${f_1, f_2, ..., f_m}$ arranged in a circle around the vertex $v$. This means that vertex $v$ is an interior vertex of $S_1$, so it corresponds to a parcel of the block $S$ that does not border a road. This shows that block $S$ is not universally accessible. Now, we will prove that if a block $S$ is not universally accessible, its stage two graph, $S_2$, is not a tree. We assume that there exists a parcel $n$ of a block $S$ that does not border a road.  Thus, there is a vertex $v_n$ of $S_1$ corresponding to parcel $n$ that is an interior vertex of $S_1$. Consider the subgraph $V_1$ of $S_1$ consisting of a minimal cycle surrounding vertex $v_n$, vertex $v_n$ itself and all edges incident to vertex $v_n$. Now, we consider the subgraph $V_2$ of $S_2$ that represents $V_1$. $V_2$ will contain one vertex for each face of $V_1$ connected by one edge representing each edge incident to vertex $v_n$.We conclude that the subgraph $V_2$ of $S_2$ is a cycle with $m$ vertices, where $m$ is the degree of vertex $v_n$ in $S_1$.This says that the stage two graph of $S$ contains a cycle, and is therefore not a tree.
+\end{proof}
 
 \begin{theorem}
     If a parcel is represented with a node in the $S_k$ graph, at least $\frac{k-1}{2}$ parcel boundaries must be crossed in order to reach it from the nearest section of the access system.
 \end{theorem}
+\begin{proof}
+For any parcel $n$ of block $S$, the minimum number of parcel boundaries that must be crossed in order to reach a road is represented by the minimum number of edges necessary to form a path from $v_n$, the vertex representing $n$ in the $S_1$ graph, to an exterior vertex of $S_1$.\\
+
+Observe that, in the algorithm for creating the $S_k$ graph of a block $S$, parcels of $S$ are represented by faces of $S_k$ when $k$ is even and nodes of $S_k$ when $k$ is odd. Furthermore, for even $k$, if a face of $S_k$ touches an exterior vertex, that face is represented by an exterior vertex in $S_{k+1}$. Finally, observe that, for odd $k$, parcels represented by an exterior vertex of $S_k$ are not represented at all in $S_{k+1}$.\\
+
+Therefore, suppose a parcel $n$ requires a path of length $l$ to connect vertex $v_n$ to an exterior vertex in $S_1$. It is clear that in $S_3$, the path from $v_n$ to an exterior vertex will have length $l-1$,and so on. The vertex $v_n$ will thus be an exterior vertex of the graph $S_{1+2l}$. Therefore, we see that, if vertex $v_n$ appears in graph $S_k$, then $k\leq 1+2l$, which says that $\frac{k-1}{2}\leq l$.
+\end{proof}
 
 \begin{theorem}
     There will be no loops in the minimal set of additional roads necessary to connect all interior parcels to a road. Thus, newly constructed roads in the minimal set of accesses form a tree or set of trees (culs-de-sac).
 \end{theorem}
+\begin{proof}
+We may consider the access network of a given block as a subgraph of the stage zero graph $S0$. In order to connect all parcels to a road, we consider parcel boundaries, which are represented by interior edges in $S0$. We may then choose a set of such edges of $S0$ to represent additional segments of road needed to ensure that the block is universally accessible. There will be several choices for this set of additional roads; we choose the one that has the fewest total geometric length of edges (minimalset of accesses).\\
+
+Suppose that there exists a block for which the minimal set of additional roads is not a tree or set of trees. Let $M$ denote the subgraph of $S0$ consisting of edges belonging to the minimal set of roads along with the nodes incident to these edges. We are assuming that there is at least one cycle in $M$. Every face of $S0$ representing an interior parcel must share at least one node with $M$ in order for every parcel to be accessible via existing or new paths. However, all connected planar graphs have a spanning tree, which is a subgraph containing all nodes of the graph but no cycles. Then, we let $M’$ be the subgraph of $M$ consisting of spanning trees for each component of $M$. Thus, every face of $S0$ representing an interior parcel will share a node with $M’$, making every parcel accessible via existing or new roads, but $M’$ has strictly fewer edges than $M$, as it is a subgraph containing no cycles. This contradicts the choice of Mas minimal. Therefore, the set of newly constructed roads must form a tree or set of trees
+\end{proof}
 
 \subsection{Topological optimization: Minimal Neighborhood Reblocking}
 
