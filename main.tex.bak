@@ -251,32 +251,20 @@ A walk in a graph is a sequence of vertices and edges $v_0, e_1, v_1, \dots, e_k
 \end{itemize}
 
 \begin{definition}[Surface]
-A $surface$ is a topological space with the following two properties:
-    \begin{itemize}
-        \item it is a 2-manifold – that is, each point has a neighbourhood homeomorphic to an open disc;
-        \item it is compact – that is, it is closed and bounded.
-    \end{itemize}
+A (topological) surface is a topological space in which every point has an open neighbourhood homeomorphic to some open subset of the Euclidean plane $E_2$.
 \end{definition}
 
-A (topological) surface is a topological space in which every point has an open neighbourhood homeomorphic to some open subset of the Euclidean plane E2.
+A sphere and a torus are examples of closed surfaces. They have no punctures, they do not run off to infinity, and they do not have any sharp boundaries. Sometimes we want to consider surfaces that are not closed. A disk and a cylinder are examples of surfaces with boundary. A surface with boundary is still locally 2-dimensional, except that it may have one or more 1-dimensional boundary curves.\\
 
-A sphere and a torus are examples ofclosed surfaces. They have nopunctures, they do not run off to infinity, and they do not have any sharpboundaries. Sometimes we want to consider surfaces that are not closed. Adisk and a cylinder are examples ofsurfaces with boundary. A surface withboundary is still locally 2-dimensional, except that it may have one or more1-dimensional boundary curves.
+There are two kinds of closed surfaces, orientable and nonorientable. A surface is $orientable$ if a positive sense of rotation (say, clockwise) can be made around all points consistently, and is $non-orientable$ otherwise. The sphere, the torus, the double torus, the triple torus, and so on, are orientable. They are commonly denoted $S_0$, $S_1$, $S_2$, $S_3$, ... Moreover, every closed connected orientable surface is homeomorphic to one of them. Another characterization of the closed orientable surfaces is that each one can be obtained by adding some handles to a sphere. Adding one handle yields S1, adding two yields S2, and so on.\\
 
-There are two kinds of closed surfaces, orientable and nonorientable. The sphere, the torus, the double torus, the triple torus, and so on, as illustrated in Figure 1.22, are orientable. They are commonly denoted S0, S 1 , S2, S3, ... Indeed, it is proved in Chapter 3 that every closed connected orientable surface is homeomorphic to one of them. 
-
-Another characterization of the closed orientable surfaces is that each one can be obtained by adding some handles to a  sphere in 3-space. Adding one handle yields S1, adding two yields S2, and so on.
-
-
- The plane is not closed, of course but since it differs from the sphere by only a single point, it follows that a given graph can be imbedded in the plane if and only if it can be imbedded in the sphere. 
- 
- 
-
-A surface is $orientable$ if a positive sense of rotation (say, clockwise) can be made around all points consistently, and is $non-orientable$ otherwise.
-
+To formalize the notion of a drawing without crossings, we define an "imbed-ding"\\
+  
 \begin{definition}[Embedding of a Graph on a Surface]
 An embedding of a graph $G$ on a surface $S$ is an one-to-one mapping of the vertices of G into that surface and a mapping of the edges of G to disjoint simple open arcs, so that the image of each edge joins the images of its two vertices and none of the images of the edges contains the image of a vertex.
 \end{definition}
-To formalize the notion of a drawing without crossings, we define an "imbed-ding"
+
+The plane is not closed, of course but since it differs from the sphere by only a single point, it follows that a given graph can be imbedded in the plane if and only if it can be imbedded in the sphere.\\
 
 A $region$ of an embedded graph $G$ is a maximal connected set of points in the relative complement of $G$ in the surface; note that one region is unbounded. The topological closure of a region (that is, the region together with the vertices and edges of $G$ on its boundary) is a $face$.
 
@@ -286,7 +274,7 @@ A $region$ of an embedded graph $G$ is a maximal connected set of points in the 
 
 \begin{theorem}[Euler’s formula]
     If a simple graph $G$ has a cellular embedding in a surface $S$ with $n$ vertices, $m$ edges and $r$ regions, then
-    $n-m+r=2-2h,$ where h is the index of the surface $S_h$.
+    $n-m+r=2-2h,$ where h is the genus of the surface $S_h$.
 \end{theorem}
 
 The number associated with $S$ in this theorem is called its Euler characteristic.
@@ -297,7 +285,6 @@ The $genus$ $\gamma(G)$ of a graph $G$ is the minimum genus of a surface in whic
 
 A connected graph of genus 0 is said to be planar. In general, a graph is planar if all of its components are planar. Thus, non-empty connected planar graphs are the graphs imbeddable in the sphere. They are the ones that underlie spherical gems. In general, the determination of the genus of a graph is  an unsolved problem. 
 
-
 \begin{definition}[Poincar\'e Dual Embedding]
 The \emph{Poincar\'e dual embedding} for a cellular graph embedding $G\xrightarrow{}S$(called \emph{the primal embedding} in this context) is constructed as follows:
     \begin{itemize}
@@ -306,6 +293,15 @@ The \emph{Poincar\'e dual embedding} for a cellular graph embedding $G\xrightarr
         \item if the surface $S$ is oriented, then in the dual embedding, the orientation is reversed.
     \end{itemize}
 \end{definition}
+
+A famous graph is the Birkhoff diamond, it is used to study the colorability of some graphs\cite{tilley2018birkhoff}. This graph is show in fig.().
+
+\begin{figure}[H]
+    \centering
+		\includegraphics[scale=0.75]{images/Birkhoff_diamond.png}
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}
 
 \subsection{Topology of the City}
 The topology of cities/neighborhoods can be understood as the topological relationship between the two main components of the city: its streets and its buildings. This is the reason why it is necessary to understand the topology of the access systems and the topology of the constructions, to then see how they are related according to each city.
@@ -589,6 +585,7 @@ Following, two solutions obtained using the statistical optimization approach is
 
 \subsection{Implementation on Sector of the \emph{Ciudad de Dios} neighborhood}
 
+The example of real life was developed in a section of \emph{Ciudad de Dios}, in Guayaquil. This sector has about 377 parcels of which, 281 are interior parcels, see fig().
 
 \begin{figure}[H]
     \centering
@@ -596,6 +593,8 @@ Following, two solutions obtained using the statistical optimization approach is
     \caption{Caption}
     \label{fig:my_label}
 \end{figure}
+
+The result of executing the statistical optimization give us a block that is universally accessible. Therefore, it is topological equivalent to a planned neighborhood, see fig().
 
 \begin{figure}[H]
     \centering
@@ -606,7 +605,11 @@ Following, two solutions obtained using the statistical optimization approach is
 
 
 \section{Conclusions}
-Studying the neighborhoods and cities through topological tools and graph theory allowed to generate a characterization of the slums with respect to planned neighborhoods. This allows to develop an algorithmic solution of the reblocking problem with optimal cost \cite{bre}. Implementing this mathematical approach could improve the situation of many cities in Ecuador.
+Studying the neighborhoods and cities through topological tools and graph theory allowed to generate a characterization of the slums with respect to planned neighborhoods. It was found that the planned neighboorhoods are universally accessible, i. e., all their parcels are conected to the network access system. While slums are not universally accessible. This characteristic can be determine using a topological tool called weak dual graphs; because it was found that a block is universally accessible, if and only if, his corresponding stage-two graph $S_2$ is a tree.\\ 
+
+This results allow us to develop an algorithmic solution of the reblocking problem with optimal cost\cite{bre}. Since executing an optimization algorithm could be a high time consuming process, an statistical optimization algorithm was proposed. The advantage of this approach is that we can add more information about the reblocking problem and instead of havind the global optimal solution we could have a more suitable solution to be implemented in the slum.\\
+
+Given the characteristics of most of the slums in Ecuador, it could be said that implementing this mathematical approach in Ecuador could improve the situation of many cities in this country.
 
 
 %%%%%%% Bibliografía %%%%%%%%
@@ -619,29 +622,6 @@ Studying the neighborhoods and cities through topological tools and graph theory
 \clearpage % o \cleardoublepage
 \addappheadtotoc 
 \appendixpage
-
-\section{Euler's Paper}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\textwidth]{images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png} 
-    \caption{Caption}
-    \label{fig:my_label}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\textwidth]{images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png} 
-    \caption{Caption}
-    \label{fig:my_label}
-\end{figure}
-
- 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\textwidth]{images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png} 
-    \caption{Caption}
-    \label{fig:my_label}
-\end{figure}
 
 \section{Code in Python}
 \begin{lstlisting}[language=Python]
@@ -835,11 +815,31 @@ def choose_path(myG, paths, alpha, strict_greedy=False):
 
     return target_path, mypath
     
-    
-
-
-
 \end{lstlisting}
+
+\newpage
+\section{Euler's Figures from ‘Solutio problematis ad geometriam situs pertinentis.’}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png} 
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png} 
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}
+
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png} 
+    \caption{Caption}
+    \label{fig:my_label}
+\end{figure}
 
 
 \end{document}

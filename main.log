@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.1)  2 JUN 2019 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.1)  2 JUN 2019 23:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,6 +671,9 @@ LaTeX Warning: Label `fig:my_label' multiply defined.
 LaTeX Warning: Label `fig:my_label' multiply defined.
 
 
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
 LaTeX Warning: Label `fig:prob1_6_2' multiply defined.
 
 
@@ -1086,136 +1089,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
 [7 <./images/slum_a.jpg> <./images/slum_d.jpg> <./images/slum2010.png> <./image
 s/slum2019.png>]
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 256.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+[8]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 291.
+
+
+LaTeX Warning: Citation `tilley2018birkhoff' on page 9 undefined on input line 
+297.
+
+<images/Birkhoff_diamond.png, id=186, 216.05719pt x 175.40532pt>
+File: images/Birkhoff_diamond.png Graphic file (type png)
+
+<use images/Birkhoff_diamond.png>
+Package pdftex.def Info: images/Birkhoff_diamond.png used on input line 301.
+(pdftex.def)             Requested size: 162.04248pt x 131.55365pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+LaTeX Warning: Citation `bre' on page 9 undefined on input line 316.
+
+
+LaTeX Warning: Citation `por' on page 9 undefined on input line 316.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-
-LaTeX Warning: Citation `bre' on page 9 undefined on input line 320.
-
-
-LaTeX Warning: Citation `por' on page 9 undefined on input line 320.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+[9 <./images/Birkhoff_diamond.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-[9]
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 337.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 333.
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 337.
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 333.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--358
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 
-LaTeX Warning: Citation `bre' on page 10 undefined on input line 371.
+LaTeX Warning: Citation `bre' on page 10 undefined on input line 367.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+[10]
+
+LaTeX Warning: Citation `unh' on page 11 undefined on input line 369.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+
+LaTeX Warning: Citation `and' on page 11 undefined on input line 371.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
-
-LaTeX Warning: Citation `unh' on page 10 undefined on input line 373.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
- []
-
-[10]
-
-LaTeX Warning: Citation `and' on page 11 undefined on input line 375.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
-
- []
-
-<images/dual1.png, id=201, 447.6725pt x 485.815pt>
+<images/dual1.png, id=204, 447.6725pt x 485.815pt>
 File: images/dual1.png Graphic file (type png)
  <use images/dual1.png>
-Package pdftex.def Info: images/dual1.png used on input line 403.
+Package pdftex.def Info: images/dual1.png used on input line 399.
 (pdftex.def)             Requested size: 112.11026pt x 121.66101pt.
 
-<images/dual2.png, id=202, 448.67625pt x 511.9125pt>
+<images/dual2.png, id=205, 448.67625pt x 511.9125pt>
 File: images/dual2.png Graphic file (type png)
  <use images/dual2.png>
-Package pdftex.def Info: images/dual2.png used on input line 409.
+Package pdftex.def Info: images/dual2.png used on input line 405.
 (pdftex.def)             Requested size: 112.11026pt x 127.9075pt.
 
-<images/dual3.png, id=203, 446.66875pt x 482.80376pt>
+<images/dual3.png, id=206, 446.66875pt x 482.80376pt>
 File: images/dual3.png Graphic file (type png)
  <use images/dual3.png>
-Package pdftex.def Info: images/dual3.png used on input line 415.
+Package pdftex.def Info: images/dual3.png used on input line 411.
 (pdftex.def)             Requested size: 112.11026pt x 121.17949pt.
 
-[11 <./images/dual1.png> <./images/dual2.png> <./images/dual3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+[12 <./images/dual1.png> <./images/dual2.png> <./images/dual3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 459.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 459.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 459.
+
+
+LaTeX Warning: Citation `bre' on page 13 undefined on input line 464.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 463.
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
 
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 463.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 463.
-
-[12]
-
-LaTeX Warning: Citation `bre' on page 13 undefined on input line 468.
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 468--469
@@ -1223,288 +1265,288 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--469
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
-
- []
-
-[13] <images/Figure_1.png, id=234, 489.2679pt x 486.3771pt>
+<images/Figure_1.png, id=237, 489.2679pt x 486.3771pt>
 File: images/Figure_1.png Graphic file (type png)
 
 <use images/Figure_1.png>
-Package pdftex.def Info: images/Figure_1.png used on input line 488.
+Package pdftex.def Info: images/Figure_1.png used on input line 484.
 (pdftex.def)             Requested size: 226.48413pt x 225.14627pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
-<images/Figure_2.png, id=235, 489.2679pt x 486.3771pt>
+<images/Figure_2.png, id=238, 489.2679pt x 486.3771pt>
 File: images/Figure_2.png Graphic file (type png)
 
 <use images/Figure_2.png>
-Package pdftex.def Info: images/Figure_2.png used on input line 500.
+Package pdftex.def Info: images/Figure_2.png used on input line 496.
 (pdftex.def)             Requested size: 149.48035pt x 148.59341pt.
 
-<images/Figure_4.png, id=236, 489.2679pt x 486.3771pt>
+<images/Figure_4.png, id=239, 489.2679pt x 486.3771pt>
 File: images/Figure_4.png Graphic file (type png)
 
 <use images/Figure_4.png>
-Package pdftex.def Info: images/Figure_4.png used on input line 506.
+Package pdftex.def Info: images/Figure_4.png used on input line 502.
 (pdftex.def)             Requested size: 149.48035pt x 148.59341pt.
- <images/dual4.png, id=237, 511.9125pt x 505.89pt>
+ <images/dual4.png, id=240, 511.9125pt x 505.89pt>
 File: images/dual4.png Graphic file (type png)
 
 <use images/dual4.png>
-Package pdftex.def Info: images/dual4.png used on input line 512.
+Package pdftex.def Info: images/dual4.png used on input line 508.
 (pdftex.def)             Requested size: 149.48035pt x 147.71556pt.
- <images/Figure_5.png, id=238, 489.2679pt x 486.3771pt>
+ [14 <./images/Figure_1.png>]
+<images/Figure_5.png, id=247, 489.2679pt x 486.3771pt>
 File: images/Figure_5.png Graphic file (type png)
 
 <use images/Figure_5.png>
-Package pdftex.def Info: images/Figure_5.png used on input line 524.
+Package pdftex.def Info: images/Figure_5.png used on input line 520.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
 
-<images/Figure_6.png, id=239, 489.2679pt x 486.3771pt>
+<images/Figure_6.png, id=248, 489.2679pt x 486.3771pt>
 File: images/Figure_6.png Graphic file (type png)
 
 <use images/Figure_6.png>
-Package pdftex.def Info: images/Figure_6.png used on input line 530.
+Package pdftex.def Info: images/Figure_6.png used on input line 526.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
- [14 <./images/Figure_1.png> <./images/Figure_2.png> <./images/Figure_4.png> <.
-/images/dual4.png>]
-<images/Figure_7.png, id=250, 489.2679pt x 486.3771pt>
+
+<images/Figure_7.png, id=249, 489.2679pt x 486.3771pt>
 File: images/Figure_7.png Graphic file (type png)
 
 <use images/Figure_7.png>
-Package pdftex.def Info: images/Figure_7.png used on input line 541.
+Package pdftex.def Info: images/Figure_7.png used on input line 537.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
 
-<images/Figure_8.png, id=251, 489.2679pt x 486.3771pt>
+<images/Figure_8.png, id=250, 489.2679pt x 486.3771pt>
 File: images/Figure_8.png Graphic file (type png)
 
 <use images/Figure_8.png>
-Package pdftex.def Info: images/Figure_8.png used on input line 547.
+Package pdftex.def Info: images/Figure_8.png used on input line 543.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
-
-<images/Figure_9.png, id=252, 489.2679pt x 486.3771pt>
+ [15 <./images/Figure_2.png> <./images/Figure_4.png> <./images/dual4.png> <./im
+ages/Figure_5.png> <./images/Figure_6.png>]
+<images/Figure_9.png, id=262, 489.2679pt x 486.3771pt>
 File: images/Figure_9.png Graphic file (type png)
 
 <use images/Figure_9.png>
-Package pdftex.def Info: images/Figure_9.png used on input line 559.
+Package pdftex.def Info: images/Figure_9.png used on input line 555.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
 
-<images/Figure_11.png, id=253, 489.2679pt x 486.3771pt>
+<images/Figure_11.png, id=263, 489.2679pt x 486.3771pt>
 File: images/Figure_11.png Graphic file (type png)
 
 <use images/Figure_11.png>
-Package pdftex.def Info: images/Figure_11.png used on input line 565.
+Package pdftex.def Info: images/Figure_11.png used on input line 561.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
- [15 <./images/Figure_5.png> <./images/Figure_6.png> <./images/Figure_7.png> <.
-/images/Figure_8.png>]
+
 <images/Figure_14.png, id=264, 489.2679pt x 486.3771pt>
 File: images/Figure_14.png Graphic file (type png)
 
 <use images/Figure_14.png>
-Package pdftex.def Info: images/Figure_14.png used on input line 577.
+Package pdftex.def Info: images/Figure_14.png used on input line 573.
 (pdftex.def)             Requested size: 226.48413pt x 225.14627pt.
 
 <images/Figure_13.png, id=265, 489.2679pt x 486.3771pt>
 File: images/Figure_13.png Graphic file (type png)
 
 <use images/Figure_13.png>
-Package pdftex.def Info: images/Figure_13.png used on input line 583.
+Package pdftex.def Info: images/Figure_13.png used on input line 579.
 (pdftex.def)             Requested size: 226.48413pt x 225.14627pt.
- <images/parcels.png, id=266, 602.25pt x 678.535pt>
+ [16 <./images/Figure_7.png> <./images/Figure_8.png> <./images/Figure_9.png> <.
+/images/Figure_11.png>]
+<images/parcels.png, id=276, 602.25pt x 678.535pt>
 File: images/parcels.png Graphic file (type png)
+ <use images/parcels.png>
+Package pdftex.def Info: images/parcels.png used on input line 592.
+(pdftex.def)             Requested size: 271.7837pt x 306.21799pt.
 
-<use images/parcels.png>
-Package pdftex.def Info: images/parcels.png used on input line 595.
-(pdftex.def)             Requested size: 226.48413pt x 255.17474pt.
- [16 <./images/Figure_9.png> <./images/Figure_11.png> <./images/Figure_14.png> 
-<./images/Figure_13.png>]
-<images/parcels_2.png, id=277, 621.32124pt x 678.535pt>
+[17 <./images/Figure_14.png> <./images/Figure_13.png>]
+<images/parcels_2.png, id=285, 621.32124pt x 678.535pt>
 File: images/parcels_2.png Graphic file (type png)
 
 <use images/parcels_2.png>
-Package pdftex.def Info: images/parcels_2.png used on input line 602.
+Package pdftex.def Info: images/parcels_2.png used on input line 601.
 (pdftex.def)             Requested size: 271.7837pt x 296.80656pt.
- [17 <./images/parcels.png>]
+ [18 <./images/parcels.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
 
-LaTeX Warning: Citation `bre' on page 18 undefined on input line 609.
+ []
+
+
+LaTeX Warning: Citation `bre' on page 19 undefined on input line 610.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+
+ []
 
 No file main.bbl.
-[18 <./images/parcels_2.png>]
-<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png, id=291, 
-747.49854pt x 357.80736pt>
-File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png Grap
-hic file (type png)
-
-<use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png>
-Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
-ntis_Fig_1.png used on input line 626.
-(pdftex.def)             Requested size: 339.7262pt x 162.62244pt.
-
-<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png, id=292, 
-721.28294pt x 119.74147pt>
-File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png Grap
-hic file (type png)
-
-<use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png>
-Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
-ntis_Fig_2.png used on input line 633.
-(pdftex.def)             Requested size: 339.7262pt x 56.40091pt.
-
-<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png, id=293, 
-734.745pt x 376.93765pt>
-File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png Grap
-hic file (type png)
-
-<use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png>
-Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
-ntis_Fig_3.png used on input line 641.
-(pdftex.def)             Requested size: 339.7262pt x 174.29066pt.
-
+[19 <./images/parcels_2.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [19
-
- <./images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png> <./im
-ages/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png> <./images/S
-olutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png>]
-Overfull \hbox (38.43079pt too wide) in paragraph at lines 652--653
+)
+Overfull \hbox (38.43079pt too wide) in paragraph at lines 632--633
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] 
  []
 
 
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 653--654
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 633--634
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.93085pt too wide) in paragraph at lines 666--667
+Overfull \hbox (6.93085pt too wide) in paragraph at lines 646--647
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] 
  []
 
 
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 667--668
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 647--648
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.63086pt too wide) in paragraph at lines 669--670
+Overfull \hbox (0.63086pt too wide) in paragraph at lines 649--650
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 678--679
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 658--659
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 679--680
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 659--660
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 694--695
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 674--675
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[20]
-Overfull \hbox (44.73077pt too wide) in paragraph at lines 701--703
+[20
+
+]
+Overfull \hbox (44.73077pt too wide) in paragraph at lines 681--683
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
 
  []
 
 
-Overfull \hbox (44.73077pt too wide) in paragraph at lines 730--731
+Overfull \hbox (44.73077pt too wide) in paragraph at lines 710--711
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.93085pt too wide) in paragraph at lines 731--732
+Overfull \hbox (6.93085pt too wide) in paragraph at lines 711--712
 [][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 752--753
+[21]
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 732--733
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] 
  []
 
-[21]
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 753--754
+
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 733--734
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (6.93085pt too wide) in paragraph at lines 773--775
+Overfull \hbox (6.93085pt too wide) in paragraph at lines 753--755
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (13.23083pt too wide) in paragraph at lines 781--782
+Overfull \hbox (13.23083pt too wide) in paragraph at lines 761--762
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 783--784
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 763--764
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.63086pt too wide) in paragraph at lines 788--789
+Overfull \hbox (0.63086pt too wide) in paragraph at lines 768--769
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[22]
+[22] [23]
+<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png, id=509, 
+747.49854pt x 357.80736pt>
+File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png Grap
+hic file (type png)
+
+<use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png>
+Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
+ntis_Fig_1.png used on input line 824.
+(pdftex.def)             Requested size: 339.7262pt x 162.62244pt.
+
+<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png, id=510, 
+721.28294pt x 119.74147pt>
+File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png Grap
+hic file (type png)
+
+<use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png>
+Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
+ntis_Fig_2.png used on input line 831.
+(pdftex.def)             Requested size: 339.7262pt x 56.40091pt.
+
+<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png, id=511, 
+734.745pt x 376.93765pt>
+File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png Grap
+hic file (type png)
+
+<use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png>
+Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
+ntis_Fig_3.png used on input line 839.
+(pdftex.def)             Requested size: 339.7262pt x 174.29066pt.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
- [23]
+
+[24 <./images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png> <.
+/images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png> <./image
+s/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D894C18BE5F04CB25081E13065D811D5;1449.
+(rerunfilecheck)             Checksum: 7243D65EAA161E9FC4B9CA9A44B6D1DC;1517.
 
 
 LaTeX Warning: There were undefined references.
@@ -1515,13 +1557,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
  ) 
 Here is how much of TeX's memory you used:
- 10120 strings out of 493029
- 145314 string characters out of 6136235
- 298206 words of memory out of 5000000
- 13219 multiletter control sequences out of 15000+600000
+ 10128 strings out of 493029
+ 145505 string characters out of 6136235
+ 296206 words of memory out of 5000000
+ 13224 multiletter control sequences out of 15000+600000
  9885 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,1720b,2034s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,43p,1720b,1976s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -1537,10 +1579,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (23 pages, 5550060 bytes).
+Output written on main.pdf (24 pages, 5622674 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 279 named destinations out of 1000 (max. 500000)
- 312 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 632 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 281 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

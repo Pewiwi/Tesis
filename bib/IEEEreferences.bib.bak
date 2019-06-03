@@ -135,6 +135,14 @@ year=2018
   year = "2012"
 }
 
+@article{tilley2018birkhoff,
+  title={The Birkhoff Diamond as Double Agent},
+  author={Tilley, James A},
+  journal={arXiv preprint arXiv:1809.02807},
+  year={2018}
+}
+
+
 @article {Ornes9686,
 	author = {Ornes, Stephen},
 	title = {Science and Culture: Can the principles of topology help improve the world{\textquoteright}s slums?},
