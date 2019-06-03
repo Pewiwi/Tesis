@@ -307,7 +307,7 @@ A famous graph is the Birkhoff diamond, it is used to study the colorability of 
 The topology of cities/neighborhoods can be understood as the topological relationship between the two main components of the city: its streets and its buildings. This is the reason why it is necessary to understand the topology of the access systems and the topology of the constructions, to then see how they are related according to each city.
 
 \subsubsection{Topology of Access System}
-The set of paths and roads of any city is called urban access system. The access system has the property of be \textbf{path-connected}, i.e., any two points in this surface can be connected traveling on the surface. Moreover, access systems are \textbf{orientable}, \textbf{2-dimensional surface} and \textbf{compact}. This properties are realated with the following facts: there is a global definition of up from down, we can only move on road and path surfaces and the surface is finite.\\
+The set of paths and roads of any city is called urban access system. The access system has the property of be \textbf{path-connected}, i.e., any two points in this surface can be connected traveling on the surface. Moreover, access systems are \textbf{orientable}, \textbf{2-dimensional surface} and \textbf{compact}. This properties are related with the following facts: there is a global definition of up from down, we can only move on road and path surfaces and the surface is finite.\\
 
 Moreover, the urban access system is a 2D surface with both \textbf{internal} and \textbf{external boundaries}: The limit of the city is the external boundary, while boundaries between accesses and each places are the internal boundaries. So, for a city with $b$ blocks there are $b$ internal boundaries and one external boundary so that the total number of boundary components, $B$, is $B = b+1$. In this sense, a city subsection is define as a set of contiguous city blocks and surrounding access system, including an external boundary that defines the physical limits of the subsection, see fig.(). When a subsection includes all blocks it is equivalent to the city, and shares its entire access system.\\
 
@@ -436,7 +436,7 @@ The complexity of universally accessible blocks is $k \leq 2$. Non-universally a
     A block $S$ is universally accessible if and only if its stage-two graph, $S_2$, is a tree.
 \end{theorem}
 \begin{proof}
-Let's assume tha $S_2$ is not a tree.  This means that there exists an interior face of $S_2$ whose boundary is a cycle $\sigma$ consisting of $m$ vertices${x_1, x_2, ...,x_m}$ of $S_2$ and $m$ edges. Each vertex $x_i$ in $\sigma$ represents a face $f_i$ of $S_1$, where face $f_i$bshares a common edge with face $f_{i-1}$(mod m)and face $f_{i+1}$(mod m). Furthermore, each of these shared edges is incident to a vertex $v$ of $S_1$ that represents the interior face of $S_2$. Thus, the cycle $\sigma$ in $S_2$ corresponds to a subgraph of $S_1$ consisting of the $m$ faces, ${f_1, f_2, ..., f_m}$ arranged in a circle around the vertex $v$. This means that vertex $v$ is an interior vertex of $S_1$, so it corresponds to a parcel of the block $S$ that does not border a road. This shows that block $S$ is not universally accessible. Now, we will prove that if a block $S$ is not universally accessible, its stage two graph, $S_2$, is not a tree. We assume that there exists a parcel $n$ of a block $S$ that does not border a road.  Thus, there is a vertex $v_n$ of $S_1$ corresponding to parcel $n$ that is an interior vertex of $S_1$. Consider the subgraph $V_1$ of $S_1$ consisting of a minimal cycle surrounding vertex $v_n$, vertex $v_n$ itself and all edges incident to vertex $v_n$. Now, we consider the subgraph $V_2$ of $S_2$ that represents $V_1$. $V_2$ will contain one vertex for each face of $V_1$ connected by one edge representing each edge incident to vertex $v_n$.We conclude that the subgraph $V_2$ of $S_2$ is a cycle with $m$ vertices, where $m$ is the degree of vertex $v_n$ in $S_1$.This says that the stage two graph of $S$ contains a cycle, and is therefore not a tree.
+Let's assume that $S_2$ is not a tree.  This means that there exists an interior face of $S_2$ whose boundary is a cycle $\sigma$ consisting of $m$ vertices${x_1, x_2, ...,x_m}$ of $S_2$ and $m$ edges. Each vertex $x_i$ in $\sigma$ represents a face $f_i$ of $S_1$, where face $f_i$ shares a common edge with face $f_{i-1}$(mod m)and face $f_{i+1}$(mod m). Furthermore, each of these shared edges is incident to a vertex $v$ of $S_1$ that represents the interior face of $S_2$. Thus, the cycle $\sigma$ in $S_2$ corresponds to a subgraph of $S_1$ consisting of the $m$ faces, ${f_1, f_2, ..., f_m}$ arranged in a circle around the vertex $v$. This means that vertex $v$ is an interior vertex of $S_1$, so it corresponds to a parcel of the block $S$ that does not border a road. This shows that block $S$ is not universally accessible. Now, we will prove that if a block $S$ is not universally accessible, its stage two graph, $S_2$, is not a tree. We assume that there exists a parcel $n$ of a block $S$ that does not border a road.  Thus, there is a vertex $v_n$ of $S_1$ corresponding to parcel $n$ that is an interior vertex of $S_1$. Consider the subgraph $V_1$ of $S_1$ consisting of a minimal cycle surrounding vertex $v_n$, vertex $v_n$ itself and all edges incident to vertex $v_n$. Now, we consider the subgraph $V_2$ of $S_2$ that represents $V_1$. $V_2$ will contain one vertex for each face of $V_1$ connected by one edge representing each edge incident to vertex $v_n$.We conclude that the subgraph $V_2$ of $S_2$ is a cycle with $m$ vertices, where $m$ is the degree of vertex $v_n$ in $S_1$.This says that the stage two graph of $S$ contains a cycle, and is therefore not a tree.
 \end{proof}
 
 \begin{theorem}
@@ -511,7 +511,7 @@ From this example is possible to realize that the corresponding $S_2$ (see figur
     \end{minipage}
 \end{figure}
  
-Using the strict optimal (piecewise) algorithm in our academic example, the solution is construted adding the smallest road in order to change an interiror parcel into a exterior parcel in each iteration, see figure ().
+Using the strict optimal (piecewise) algorithm in our academic example, the solution is constructed adding the smallest road in order to change an interior parcel into a exterior parcel in each iteration, see figure ().
 
 \begin{figure}[H]
     \centering
@@ -564,17 +564,17 @@ In the figure () and figure (), we can see the dual graphs $S_0$ and $S_1$, resp
     \end{minipage}
 \end{figure}
 
-Following, two solutions obtained using the statistical optimization approach is showing in the figure () and figure (). One solution path have around of 7.82 meters of new streets, while the other solution has around of 6.83 meters of new roads. Since, the optimal path solution computed with the strict optimization (piecewise) strategic, have a length of 7 meters of new streets, see fig(). This shows that the solution construted using the strict optimization (piecewise) is not allways the globally optimun.
+Following, two solutions obtained using the statistical optimization approach is showing in the figure () and figure (). One solution path have around of 7.82 meters of new streets, while the other solution has around of 6.83 meters of new roads. Since, the optimal path solution computed with the strict optimization (piecewise) strategic, have a length of 7 meters of new streets, see fig(). This shows that the solution constructed using the strict optimization (piecewise) is not always the globally optimum.
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}{.5\linewidth}
+    \begin{minipage}{.45\linewidth}
         \centering
         \includegraphics[width=1\textwidth]{images/Figure_14.png}
         \caption{$dt=0.1$}
         \label{fig:prob1_6_2}
     \end{minipage}%
-    \begin{minipage}{.5\linewidth}
+    \begin{minipage}{.45\linewidth}
         \centering
         \includegraphics[width=1\textwidth]{images/Figure_13.png}
         \caption{$dt=0.1$}
@@ -605,9 +605,9 @@ The result of executing the statistical optimization give us a block that is uni
 
 
 \section{Conclusions}
-Studying the neighborhoods and cities through topological tools and graph theory allowed to generate a characterization of the slums with respect to planned neighborhoods. It was found that the planned neighboorhoods are universally accessible, i. e., all their parcels are conected to the network access system. While slums are not universally accessible. This characteristic can be determine using a topological tool called weak dual graphs; because it was found that a block is universally accessible, if and only if, his corresponding stage-two graph $S_2$ is a tree.\\ 
+Studying the neighborhoods and cities through topological tools and graph theory allowed to generate a characterization of the slums with respect to planned neighborhoods. It was found that the planned neighborhoods are universally accessible, i. e., all their parcels are connected to the network access system. While slums are not universally accessible. This characteristic can be determine using a topological tool called weak dual graphs; because it was found that a block is universally accessible, if and only if, his corresponding stage-two graph $S_2$ is a tree.\\ 
 
-This results allow us to develop an algorithmic solution of the reblocking problem with optimal cost\cite{bre}. Since executing an optimization algorithm could be a high time consuming process, an statistical optimization algorithm was proposed. The advantage of this approach is that we can add more information about the reblocking problem and instead of havind the global optimal solution we could have a more suitable solution to be implemented in the slum.\\
+This results allow us to develop an algorithmic solution of the re-blocking problem with optimal cost\cite{bre}. Since executing an optimization algorithm could be a high time consuming process, an statistical optimization algorithm was proposed. The advantage of this approach is that we can add more information about the re-blocking problem and instead of having the global optimal solution we could have a more suitable solution to be implemented in the slum.\\
 
 Given the characteristics of most of the slums in Ecuador, it could be said that implementing this mathematical approach in Ecuador could improve the situation of many cities in this country.
 
