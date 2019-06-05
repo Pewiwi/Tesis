@@ -15,8 +15,8 @@
 \contentsline {section}{\numberline {5}Implementation of the Approach}{14}{section.5}
 \contentsline {subsection}{\numberline {5.1}Implementation on Academic Example}{14}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Implementation on Sector of the \emph {Ciudad de Dios} neighborhood}{17}{subsection.5.2}
-\contentsline {section}{\numberline {6}Conclusions}{19}{section.6}
-\contentsline {section}{References}{19}{section.6}
-\contentsline {section}{Appendices}{20}{section*.16}
-\contentsline {section}{\numberline {A}Code in Python}{20}{appendix.A}
-\contentsline {section}{\numberline {B}Euler's Figures from \IeC {\textquoteleft }Solutio problematis ad geometriam situs pertinentis.\IeC {\textquoteright }}{24}{appendix.B}
+\contentsline {section}{\numberline {6}Conclusions}{18}{section.6}
+\contentsline {section}{References}{18}{section.6}
+\contentsline {section}{Appendices}{19}{section*.16}
+\contentsline {section}{\numberline {A}Code in Python}{19}{appendix.A}
+\contentsline {section}{\numberline {B}Euler's Figures from \IeC {\textquoteleft }Solutio problematis ad geometriam situs pertinentis.\IeC {\textquoteright }}{23}{appendix.B}
