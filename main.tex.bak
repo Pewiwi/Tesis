@@ -106,7 +106,7 @@ cities}\\[0.4cm]
       Saulo Javier Ronquillo Guachamin \\
     \vspace*{1cm}
     \emph{Adviser:} \\
-      Hermann Mena	\\
+      Hermann Mena, Ph. D.	\\
   }
 
   \vspace{2cm}
@@ -153,62 +153,39 @@ In an article by Luis Bettencourt and Geoffrey West for the journal Nature, they
 
 This work shows the development and use of an algorithm that tells us how road construction should be planned in order to upgrade slums. The execution of the algorithm is carried out in a sector of \emph{Ciudad de Dios}, a marginal neighborhood of Guayaquil, with the aim that this area is topologically equivalent to a planned neighborhood in need of low investment.\\
 
-
-\section{Objectives}
-\subsection{General Objective}
-Analyze the mathematical approach proposed by Brelsford et al. \cite{bre} and replicate the method in specific examples.
-
-
-\subsection{Specific Objectives}
-\begin{itemize}
-    \item Study the approach proposed in \cite{bre}.
-    \item Replicate the methods of \cite{bre} in an academic example.
-    \item Use the approach \cite{bre} in a city or neighborhood of Ecuador.
-\end{itemize}
-
-
-\section{Methodology}
-In order to achieve the goals of this project we proceed in the following way.\\
-
-First, we carry out a bibliographic review of the relevant definitions about slums as their characteristics and classification. Then, an analysis of the situation of the slums in the city of Guayaquil was made, with emphasis on the \emph{Ciudad de Dios} sector.\\
-
-Subsequently, the bibliographic review was aimed at compiling the concepts of topological graphs theory that we are going to use in this work.\\
-
-Then, we follow the approach proposed in \cite{bre}. The main goal here was to understand how the tools of topology and graph theory can be used to diagnose and solve neighborhood development problems.\\
-
-The next step was to reuse and modify the tools that the authors of \cite{bre} made available to the public for the implementation of their approach.\\
-
-After that, an academic example was developed to be able to obtain some different solutions that the approach can give us.\\
-
-Finally, a sector of the \emph{Ciudad de Dios} neighborhood was digitized to execute the approach and analyze the result that it has when being used in an Ecuadorian slum.\\
-
-%To do this, the urban construction spaces were divided into two categories: (i) the access system (streets, roads and paths) and (ii) places (buildings and public places). Then, each city or neighborhood can be identified by the existing connection between the access system and the places. This allows the slum to be characterized differently from the developed neighborhoods, because generally in developed neighborhoods each place has a direct connection to the access system while in slums this is not fulfilled \cite{unh}. Then, using these topological characteristics of the neighborhoods, it is possible to generate an algorithm to plan the construction of streets with the aim that the slums are topologically equivalent to developed neighborhoods. Then, we used this algorithm in to an academic example. Afterwards we applied the approach in a sector of \emph{Ciudad de Dios}, a marginal neighborhood of Guayaquil.%
-
-\section{Results}
-
-In this section we introduce the topological concepts that are used to demonstrate that using the topological properties of the neighborhoods is a valid methodology to characterize them. In addition, some basic considerations on the concept of slums are shown.
+The main objetive is analyze the mathematical approach proposed by Brelsford et al. \cite{bre} and replicate the method in specific examples. Specifically, in an academic example and in a neighborhood of Ecuador.
+\section{Basic Concepts}
 
 \subsection{Slums}
 \subsubsection{Definition and Properties}
-Despite that in the literature there are several ways to define slums, the one that is most useful in our context is that a slum is a set of buildings of spontaneous origin in a landscape. Due to its spontaneous origin it turns out that the slums seem to be planless or antiplan(). An attempt to classify the slums is shown in (), there indicate that there are two key factors to determine the type of slum: hope (or despair) and escalator (or non-escalator), see figure ().\\
+Despite that in the literature there are several ways to define slums, the one that is most useful in our context is that a slum is a set of buildings of spontaneous origin in a landscape. Due to its spontaneous origin it turns out that the slums seem to be planless or antiplan\cite{stokes1962theory}. An attempt to classify the slums is shown in \cite{stokes1962theory}, there indicate that there are two key factors to determine the type of slum: hope (or despair) and escalator (or non-escalator), see figure \ref{fig:slums_classification}.\\
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.4\textwidth]{images/img}
-    \caption{Caption}
-    \label{fig:my_label}
+    \caption{Slums classification. Reprinted from “A theory of slums,” by  C. J. Stokes, 1962, Land economics, vol. 38, p. 189. Copyright Year by JSTOR.}
+    \label{fig:slums_classification}
 \end{figure}
 
 The hope factor is related to the reason of the settlement, whether it is done by necessity or in search of better opportunities. While the escalator factor is related to the integration of slum dwellers for reasons of culture, religion or race.\\
 
-In practical terms, most type A slums are the result of migrations of people from the same country who have some economic capacity. While the slums belonging to the other types is formed by people of very different origins or with no economic capacity. This causes that differences can be appreciated in the ordering of the constructions according to the type of slum. For instance, in the slums of type A we could find a kind of linear arrangement of the constructions because people living there have the intention to stay there for a while, but in slums of type D the constructions seem to be more random because their dwellers were probably settle for need, see figure().\\ 
+In practical terms, most type A slums are the result of migrations of people from the same country who have some economic capacity. While the slums belonging to the other types is formed by people of very different origins or with no economic capacity. This causes that differences can be appreciated in the ordering of the constructions according to the type of slum. For instance, in the slums of type A we could find a kind of linear arrangement of the constructions because people living there have the intention to stay there for a while, but in slums of type D the constructions seem to be more random because their dwellers were probably settle for need, see figure \ref{fig:slumD} and figure \ref{fig:slumA}.\\ 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale = 0.32]{images/slum_a}
-    \includegraphics[scale = 0.205]{images/slum_d}
-    \caption{Caption}
-    \label{fig:my_label}
+    \begin{minipage}{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/slum_medel.jpeg} 
+        \caption{Slum of type D. By Institute for Housing and Urban Development Studies, CC BY-SA 3.0, https://commons.wikimedia.org /w/index.php?curid=34389333}
+        \label{fig:slumD}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.50\linewidth}
+        \centering
+        \includegraphics[width=0.85\textwidth]{images/slum1.png}
+        \caption{Slum of type A. Reprinted from “SLUM ALMANAC 2015/2016: Tracking Improvement in the Lives of Slum Dwellers,” by  UN-Habitat, 2016, Participatory Slum Upgrading Programme, p. 9. Copyright Year by UN-Habitat/Julius Mwelu.}
+        \label{fig:slumA}
+    \end{minipage}
 \end{figure}
 
 
@@ -222,13 +199,15 @@ Given the current conditions of creation of the slums it can be said that most o
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale = 0.31]{images/slum2010}
-    \includegraphics[scale = 0.22]{images/slum2019}
+    \includegraphics[scale = 0.22]{images/C_Dios_2015.jpg}\hfill    \includegraphics[scale = 0.22]{images/C_Dios_2018.jpg}
     \caption{Caption}
     \label{fig:my_label}
 \end{figure}
 
 Bertaud is a detractor of the use of strategies guided by topological algorithms to restructure the slums. Because usually the solutions that involve the construction of roads need space, which will be obtained through the eviction of some inhabitants\cite{Ornes9686}. However, the reality of slums in Ecuador is that they are not as dense as those that can be found in other countries such as India for example. This makes it easier to find ways to create these roads. 
+
+\subsubsection{Upgrade Slums}
+
 
 \subsection{Topological Graph Theory}
 Before showing the results of the study of the Topology of the Cities, it is necessary to review some general concepts of the theory of topological graphs. Our principal resources are \cite{gross2009topics}, \cite{bonnington2012foundations}, \cite{gross1987topological} and \cite{richeson2008euler}.\\
@@ -294,7 +273,10 @@ The \emph{Poincar\'e dual embedding} for a cellular graph embedding $G\xrightarr
     \end{itemize}
 \end{definition}
 
-A famous graph is the Birkhoff diamond, it is used to study the colorability of some graphs\cite{tilley2018birkhoff}. This graph is show in fig.().
+El uso del grafo dual ha sido utilizado para realizar varias pruebas en donde el problema inicial no se redacto sobre grafos. Por ejemplo, en la demostracion del teorema del mapa de cuatro colores. El teorema indica que en una mapa de un pais con regiones continuas, solo es necesario a lo mucho cuatro colores para que dos regiones continuas no esten coloreados iguales. En terminos del grafo dual este problema se reduce en que dos nodos adyacentes no posean el mismo color.
+
+A famous graph is the Birkhoff diamond, it is used to study the colorability of some graphs\cite{tilley2018birkhoff}. This graph is show in fig.(). Particularly, George D. Birkhoff states that the configuration of that graph cannot be present in a minimum counterexample to the four colour theorem.
+%\cite{stieb1995}
 
 \begin{figure}[H]
     \centering
@@ -303,7 +285,78 @@ A famous graph is the Birkhoff diamond, it is used to study the colorability of 
     \label{fig:my_label}
 \end{figure}
 
-\subsection{Topology of the City}
+
+
+%agrega uso del mapa dual en el teorema de los cuatro colores, fuente:euler gem pagina 145.
+%agregar equivalencia topologica. Tal vez agregar congruencia fuente Enciclopedia de matematicas pagina 53.
+%Wiley Series in Discrete Mathematics and Optimization pagina 34
+
+
+\subsection{Topological Optimization}
+
+The size, shape, and topology optimization have a big importance in the field of structural design engineering since these design features have a high-impact on the performance of the final product. [Benditoe2003topology}. \\
+
+The problems of size, shape and topology optimization are resolved in different aspects of each. Particularly the topological optimization of structures is involved in the determination of characteristics such as the number, location, and shapes of the holes that will have the design \ cite {bendsoe2003topology}. This translates into establishing in which points of space should have had material and in what points should remain empty.
+
+The result obtained by using topological optimization can lead to new and innovative designs% \ cite {Leiva1999}%.
+And these designs could serve as a starting point for then use other optimization criteria of interest to the designer \ cite {bendsoe2003topology}. \\
+
+In addition to the use of topological optimization in the field of structural design, this type of optimization is also used to obtain more robust communication networks that are governed by different design restrictions and have the lowest possible cost.
+% \ cite {frank}
+
+It is possible to use a heuristic approach to be able to determine the topology of an optimal Internet network. Starting from a shorter tree (minimum expansion tree) and then add connections between nodes that have a lot of data traffic we could have a robust internet network
+% \ cite {frank}. 
+
+%The optimization of the geometry and topology of structural layout has great impact on the performance of structures, and the last decade has seen a great amount of work in this important area of structural optimization. This has mainly been spurred by the success of the material distribution method for generating optimal topologies of structural elements. This defines shape in terms of a material density and geometry is described by what amounts to a raster representation as seen in computer graphics. Today one naturally distinguishes between the search for "classical" designs made from a given material, and methods that allow for a broader range of material usage.(Martin) 
+%Sizing, shape, and topology optimization problems address different aspects of the structural design problem. In a typical sizing problem the goal may be to find the optimal thickness distribution of a linearly elastic plate or the optimal member areas in a truss structure. The optimal thickness distribution minimizes (or maximizes) a physical quantity such as the mean compliance (external work), peak stress, deflection, etc. while equilibrium and other constraints on the state and design variables are satisfied. The design variable is the thickness of the plate and the state variable may be its deflection. The main feature of the sizing problem is that the domain of the design model and state variables is known a priori and is fixed throughout the optimization process. On the other hand, in a shape optimization problem the goal is to find the optimum shape of this domain, that is, the shape problem is defined on a domain which is now the design variable. Topology optimization of solid structures involves the determination of features such as the number and location and shape of holes and the connectivity of the domain.
+%In the design of the topology of a structure we are interested in the determination of the optimal placement of a given isotropic material in space, i.e., we should determine which points of space should be material points and which points should remain void (no material). That is, we think of the geometric representation of a structure as similar to a black-white rendering of an image. In discrete form this then corresponds to a black-white raster representation of the geometry, with "pixels" (or "voxels") given by the finite element discretization.
+%the possibility of generating the optimal topology for a body can be used by the designer to select the shape of the initial proposed form of the body for the boundary variations technique. This is usually left entirely to the designer, but the material distribution method gives the designer a rational basis for his choice of initial form. As to be expected, the topology is of great importance for the performance of the structure, and it has turned out that - not unexpectedly - the compliance optimized topologies generated using topology design are very good starting points for optimization concerning several other criteria such as maximum stress, maximum deflection, etc.
+
+%Topology optimization is used to find a preliminary structural configuration that meets a predefined criterion. 
+
+
+%En el campo de la ingenieria de diseno estructural la optimizacion de tamano, forma y topologia poseen una gran importancia, pues estas carateristicas del diseno de la las estructuras tiene gran impacto en el rendimiento del producto final\cite{bendsoe2003topology}.\\
+
+%Los problemas de opmizacion de tamano, forma y topologia resuelven diferentes aspectos cada uno. Particularmente la optimizacion topologica de estructuras solidas involucra la determinacion de caracteristicas como el numero, ubicacion y las formas de los huecos que posera el diseno\cite{bendsoe2003topology}. Esto se traduce en establecer en que puntos del espacio deberia haber determinado material y en que puntos deberia permanecer vacios.\\
+
+%El resultado obtenido al utilizar optimizacion topologica  puede darnos disenos completamente nuevos e innovadores %\cite{Leiva1999}%.
+%Y que sirven como punto de partida para que luego utilizar otros criterios de optimizacion de interes para el disenador\cite{bendsoe2003topology}.\\
+
+%Ademas del uso de optimizacion topologica en el campo de diseno estructural, este tipo de optimizacion tambien se suele utilizar para obtener redes de comunicacion mas robustas que  se rijan por distintas restricciones de diseno y que posean el menor costo posible.
+%\cite{frank}
+
+%Una heuristica posible que es utilizada para determinar la topologia de una red de internet optima es partir de un shortest tree (minimal spaning tree) y luego agregar conexiones entre los nodos que poseen mucho trafico de datos. 
+%\citep{frank}
+
+
+
+%On  the  other hand,  the use of a  shortest  tree  connecting all communicating points  even  under  the  simplest  and  most  ideal  conditions  may still  not  be  optimal.  This  is  because  one  can  add  a  set of S additional  points,  called  Steiner  points,  to  an  N-node  system and  then find the  shortest  tree  connecting  the N+S points [25]. If the new points  are  chosen  appropriately,  the  resulting tree  is  called  a Steiner minimal tree and  the  total  length of all lines  in the  Steiner  tree  is less than  the  total  length of all  lines in  the  ordinary  shortest  tree  without  Steiner  points. A simple example of a shortest  tree  and  a  Steiner  tree  is  shown  in  Fig.  3. Physically,  a  Steiner  point  corresponds  to  the  location of a multiplexer  or  concentrator,  and  although  some  procedures are  available  for  finding  good  locations,  this  problem  is  pres- ently  tractable  only  by  using  heuristic  procedures.  An  effective heuristic  approach  for  the  problem  is  described  in [6]
+
+
+
+
+\section{Methodology}
+In order to achieve the goals of this project we proceed in the following way.\\
+
+First, we carry out a bibliographic review of the relevant definitions about slums as their characteristics and classification. Then, an analysis of the situation of the slums in the city of Guayaquil was made, with emphasis on the \emph{Ciudad de Dios} sector.\\
+
+Subsequently, the bibliographic review was aimed at compiling the concepts of topological graphs theory that we are going to use in this work.\\
+
+Then, we follow the approach proposed in \cite{bre}. The main goal here was to understand how the tools of topology and graph theory can be used to diagnose and solve neighborhood development problems.\\
+
+The next step was to reuse and modify the tools that the authors of \cite{bre} made available to the public for the implementation of their approach.\\
+
+After that, an academic example was developed to be able to obtain some different solutions that the approach can give us.\\
+
+Finally, a sector of the \emph{Ciudad de Dios} neighborhood was digitized to execute the approach and analyze the result that it has when being used in an Ecuadorian slum.\\
+
+%To do this, the urban construction spaces were divided into two categories: (i) the access system (streets, roads and paths) and (ii) places (buildings and public places). Then, each city or neighborhood can be identified by the existing connection between the access system and the places. This allows the slum to be characterized differently from the developed neighborhoods, because generally in developed neighborhoods each place has a direct connection to the access system while in slums this is not fulfilled \cite{unh}. Then, using these topological characteristics of the neighborhoods, it is possible to generate an algorithm to plan the construction of streets with the aim that the slums are topologically equivalent to developed neighborhoods. Then, we used this algorithm in to an academic example. Afterwards we applied the approach in a sector of \emph{Ciudad de Dios}, a marginal neighborhood of Guayaquil.%
+
+\section{Results}
+
+In this section we introduce the topological concepts that are used to demonstrate that using the topological properties of the neighborhoods is a valid methodology to characterize them. In addition, some basic considerations on the concept of slums are shown.
+
+\subsection{Topology of a City}
 The topology of cities/neighborhoods can be understood as the topological relationship between the two main components of the city: its streets and its buildings. This is the reason why it is necessary to understand the topology of the access systems and the topology of the constructions, to then see how they are related according to each city.
 
 \subsubsection{Topology of Access System}
@@ -459,7 +512,7 @@ We may consider the access network of a given block as a subgraph of the stage z
 Suppose that there exists a block for which the minimal set of additional roads is not a tree or set of trees. Let $M$ denote the subgraph of $S0$ consisting of edges belonging to the minimal set of roads along with the nodes incident to these edges. We are assuming that there is at least one cycle in $M$. Every face of $S0$ representing an interior parcel must share at least one node with $M$ in order for every parcel to be accessible via existing or new paths. However, all connected planar graphs have a spanning tree, which is a subgraph containing all nodes of the graph but no cycles. Then, we let $M’$ be the subgraph of $M$ consisting of spanning trees for each component of $M$. Thus, every face of $S0$ representing an interior parcel will share a node with $M’$, making every parcel accessible via existing or new roads, but $M’$ has strictly fewer edges than $M$, as it is a subgraph containing no cycles. This contradicts the choice of $M$ as minimal. Therefore, the set of newly constructed roads must form a tree or set of trees
 \end{proof}
 
-\subsection{Topological optimization: Minimal Neighborhood Reblocking}
+\subsection{Minimal Neighborhood Reblocking}
 
  In \cite{bre}, the authors define this topological optimization problem in two different ways. The first, a strict optimization that is too rigid for practical use. The second, a statistical optimization that is more flexible and can be the basis for practical neighborhood upgrading tools.\\
 
@@ -469,14 +522,14 @@ The statistical optimization starts from the fact that some paths, despite not b
 
 The approach developed by Brelsford et. al. to deal with blocks within large number of parcels consists in the following steps. First, find the solution of strict optimization for an interior parcel. Then, define a set of feasible solutions adding $n$ alternative paths to connect the parcel with the access system. This process must be repeated for the rest of interior parcels. Then, use the defined probability function for statistical optimization to select a single path from our set of feasible path solutions. After adding the selected path to the access system, the information of the interior parcels is updated and the whole process is repeated until there are no more interior parcels, i. e., the graph $ S_2 $ is a tree.
 
-\section{Implementation of the Approach}
+\section{Implementation}
 The approach was implemented and tested using two examples: an academic one and a real life one. The real life implementation was developed using a zone of the neighborhood \emph{Ciudad de Dios} in Guayaquil.\\
 
 The objective to use an academic example is to recreate the proposal described in [], and in this way to be able to verify the different solutions that the algorithm gives us depending on the type of optimization used, i.e., strict optimization(piecewise) or statistical optimization. Moreover, we should be able to verify the construction of the dual graph for a block with interior parcels as the theory related with it.\\
 
 On the other hand, the motivation to use a real life example is to show that this proposal is viable to be used in the context of the Ecuadorian slums.
 
-\subsection{Implementation on Academic Example}
+\subsection{An Academic Example}
 The academic example consists in 15 parcels, where 10 of them are exterior parcels and five are interior parcels, see figure().\\
 
 \begin{figure}[H]
@@ -583,7 +636,7 @@ Following, two solutions obtained using the statistical optimization approach is
 \end{figure}
 
 
-\subsection{Implementation on Sector of the \emph{Ciudad de Dios} neighborhood}
+\subsection{\emph{Ciudad de Dios} neighborhood in Guayaquil}
 
 The example of real life was developed in a section of \emph{Ciudad de Dios}, in Guayaquil. This sector has about 377 parcels of which, 281 are interior parcels, see fig().
 

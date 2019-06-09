@@ -10,6 +10,14 @@ number = 8,
 month = August
 }
 
+@misc{bendsoe2003topology,
+  title={Topology optimization: theory, methods and applications.},
+  author={Bends{\o}e, Martin P and Sigmund, Ole},
+  year={2003},
+  publisher={Springer}
+}
+
+
 @ARTICLE{and,
 author = {Rinaldo, Andrea and Rigon, Riccardo and  Banavar, Jayanth R. and Maritan, Amos and Rodriguez-Iturbe, Ignacio},
 year = 2014,
@@ -70,6 +78,26 @@ title= {Ley Orgánica de Ordenamiento Territorial, Uso y Gestión de Suelo},
 year=2016,
 url="https://www.habitatyvivienda.gob.ec/wp-content/uploads/downloads/2016/08/Ley-Organica-de-Ordenamiento-Territorial-Uso-y-Gestion-de-Suelo1.pdf"
 }
+
+@article{habitat2016slum,
+  title={Slum Almanac 2015--2016: Tracking Improvement in the Lives of Slum Dwellers},
+  author={Habitat, UN},
+  journal={Participatory Slum Upgrading Programme},
+  year={2016}
+}
+
+
+@article{stokes1962theory,
+  title={A theory of slums},
+  author={Stokes, Charles J},
+  journal={Land economics},
+  volume={38},
+  number={3},
+  pages={187--197},
+  year={1962},
+  publisher={JSTOR}
+}
+
 
 @techreport{miduvi,
 institution= {Ministerio de Desarrollo Urbano y Vivienda},

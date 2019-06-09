@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.1)  3 JUN 2019 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.1)  8 JUN 2019 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,12 +668,6 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 LaTeX Warning: Label `fig:my_label' multiply defined.
 
 
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
 LaTeX Warning: Label `fig:prob1_6_2' multiply defined.
 
 
@@ -945,251 +939,227 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
  []
 
 
-LaTeX Warning: Citation `bre' on page 5 undefined on input line 159.
+LaTeX Warning: Citation `bre' on page 5 undefined on input line 156.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 164.
+
+LaTeX Warning: Citation `stokes1962theory' on page 5 undefined on input line 16
+1.
+
+
+LaTeX Warning: Citation `stokes1962theory' on page 5 undefined on input line 16
+1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+<images/img.png, id=146, 1729.46124pt x 1409.265pt>
+File: images/img.png Graphic file (type png)
+ <use images/img.png>
+Package pdftex.def Info: images/img.png used on input line 165.
+(pdftex.def)             Requested size: 181.18454pt x 147.62238pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+<images/slum_medel.jpeg, id=149, 3468.96pt x 2312.64pt>
+File: images/slum_medel.jpeg Graphic file (type jpg)
+
+<use images/slum_medel.jpeg>
+Package pdftex.def Info: images/slum_medel.jpeg used on input line 178.
+(pdftex.def)             Requested size: 193.64198pt x 129.0835pt.
+
+Underfull \hbox (badness 2564) in paragraph at lines 179--179
+\OT1/cmr/m/n/10 BY-SA 3.0, https://commons.wikimedia.org
+ []
+
+<images/slum1.png, id=150, 1771.61874pt x 1316.92pt>
+File: images/slum1.png Graphic file (type png)
+ <use images/slum1.png>
+Package pdftex.def Info: images/slum1.png used on input line 185.
+(pdftex.def)             Requested size: 192.51288pt x 143.09332pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./images/img.png>]
+
+LaTeX Warning: Citation `cam_mac' on page 6 undefined on input line 196.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+<images/C_Dios_2015.jpg, id=158, 963.6pt x 542.025pt>
+File: images/C_Dios_2015.jpg Graphic file (type jpg)
+
+<use images/C_Dios_2015.jpg>
+Package pdftex.def Info: images/C_Dios_2015.jpg used on input line 202.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+
+<images/C_Dios_2018.jpg, id=159, 963.6pt x 542.025pt>
+File: images/C_Dios_2018.jpg Graphic file (type jpg)
+
+<use images/C_Dios_2018.jpg>
+Package pdftex.def Info: images/C_Dios_2018.jpg used on input line 202.
+(pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
+
+
+LaTeX Warning: Citation `Ornes9686' on page 6 undefined on input line 207.
+
+[6 <./images/slum_medel.jpeg> <./images/slum1.png> <./images/C_Dios_2015.jpg> <
+./images/C_Dios_2018.jpg>]
+
+LaTeX Warning: Citation `gross2009topics' on page 7 undefined on input line 213
+.
+
+
+LaTeX Warning: Citation `bonnington2012foundations' on page 7 undefined on inpu
+t line 213.
+
+
+LaTeX Warning: Citation `gross1987topological' on page 7 undefined on input lin
+e 213.
+
+
+LaTeX Warning: Citation `richeson2008euler' on page 7 undefined on input line 2
+13.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 226.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 226.
 
-
-LaTeX Warning: Citation `bre' on page 5 undefined on input line 164.
-
-
-LaTeX Warning: Citation `bre' on page 5 undefined on input line 165.
-
-
-LaTeX Warning: Citation `bre' on page 5 undefined on input line 166.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
 
-LaTeX Warning: Citation `bre' on page 5 undefined on input line 177.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-
-LaTeX Warning: Citation `bre' on page 5 undefined on input line 179.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-<images/img.png, id=150, 1729.46124pt x 1409.265pt>
-File: images/img.png Graphic file (type png)
- <use images/img.png>
-Package pdftex.def Info: images/img.png used on input line 197.
-(pdftex.def)             Requested size: 181.18454pt x 147.62238pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-<images/slum_a.jpg, id=151, 602.25pt x 398.48875pt>
-File: images/slum_a.jpg Graphic file (type jpg)
- <use images/slum_a.jpg>
-Package pdftex.def Info: images/slum_a.jpg used on input line 208.
-(pdftex.def)             Requested size: 192.72392pt x 127.519pt.
-
-<images/slum_d.jpg, id=152, 932.7648pt x 624.4128pt>
-File: images/slum_d.jpg Graphic file (type jpg)
- <use images/slum_d.jpg>
-Package pdftex.def Info: images/slum_d.jpg used on input line 209.
-(pdftex.def)             Requested size: 191.21802pt x 128.00545pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `cam_mac' on page 6 undefined on input line 219.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
-
- []
-
-[6 <./images/img.png>]
-<images/slum2010.png, id=159, 712.16063pt x 432.86719pt>
-File: images/slum2010.png Graphic file (type png)
-
-<use images/slum2010.png>
-Package pdftex.def Info: images/slum2010.png used on input line 225.
-(pdftex.def)             Requested size: 220.76752pt x 134.18744pt.
-
-<images/slum2019.png, id=160, 812.03375pt x 608.2725pt>
-File: images/slum2019.png Graphic file (type png)
-
-<use images/slum2019.png>
-Package pdftex.def Info: images/slum2019.png used on input line 226.
-(pdftex.def)             Requested size: 178.64798pt x 133.82036pt.
-
-
-LaTeX Warning: Citation `Ornes9686' on page 7 undefined on input line 231.
-
-
-LaTeX Warning: Citation `gross2009topics' on page 7 undefined on input line 234
-.
-
-
-LaTeX Warning: Citation `bonnington2012foundations' on page 7 undefined on inpu
-t line 234.
-
-
-LaTeX Warning: Citation `gross1987topological' on page 7 undefined on input lin
-e 234.
-
-
-LaTeX Warning: Citation `richeson2008euler' on page 7 undefined on input line 2
-34.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
-
-[7 <./images/slum_a.jpg> <./images/slum_d.jpg> <./images/slum2010.png> <./image
-s/slum2019.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
-
- []
-
-[8]
+[7]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 291.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 270.
 
 
-LaTeX Warning: Citation `tilley2018birkhoff' on page 9 undefined on input line 
-297.
+LaTeX Warning: Citation `tilley2018birkhoff' on page 8 undefined on input line 
+278.
 
-<images/Birkhoff_diamond.png, id=186, 216.05719pt x 175.40532pt>
+<images/Birkhoff_diamond.png, id=181, 216.05719pt x 175.40532pt>
 File: images/Birkhoff_diamond.png Graphic file (type png)
 
 <use images/Birkhoff_diamond.png>
-Package pdftex.def Info: images/Birkhoff_diamond.png used on input line 301.
+Package pdftex.def Info: images/Birkhoff_diamond.png used on input line 283.
 (pdftex.def)             Requested size: 162.04248pt x 131.55365pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+LaTeX Warning: Citation `Benditoe2003topology' on page 8 undefined on input lin
+e 297.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+[8 <./images/Birkhoff_diamond.png>]
+
+LaTeX Warning: Citation `bendsoe2003topology' on page 9 undefined on input line
+ 299.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
 
  []
 
 
-LaTeX Warning: Citation `bre' on page 9 undefined on input line 316.
-
-
-LaTeX Warning: Citation `por' on page 9 undefined on input line 316.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-
- []
-
-[9 <./images/Birkhoff_diamond.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 333.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 333.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+LaTeX Warning: Citation `bre' on page 9 undefined on input line 345.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+LaTeX Warning: Citation `bre' on page 9 undefined on input line 347.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
-LaTeX Warning: Citation `bre' on page 10 undefined on input line 367.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
-[10]
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
-LaTeX Warning: Citation `unh' on page 11 undefined on input line 369.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+
+LaTeX Warning: Citation `bre' on page 10 undefined on input line 369.
+
+
+LaTeX Warning: Citation `por' on page 10 undefined on input line 369.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 369--370
@@ -1197,356 +1167,407 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--370
  []
 
 
-LaTeX Warning: Citation `and' on page 11 undefined on input line 371.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
-<images/dual1.png, id=204, 447.6725pt x 485.815pt>
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 386.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 386.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+
+ []
+
+
+LaTeX Warning: Citation `bre' on page 11 undefined on input line 420.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+
+LaTeX Warning: Citation `unh' on page 11 undefined on input line 422.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+
+LaTeX Warning: Citation `and' on page 11 undefined on input line 424.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+[11] <images/dual1.png, id=211, 447.6725pt x 485.815pt>
 File: images/dual1.png Graphic file (type png)
  <use images/dual1.png>
-Package pdftex.def Info: images/dual1.png used on input line 399.
+Package pdftex.def Info: images/dual1.png used on input line 452.
 (pdftex.def)             Requested size: 112.11026pt x 121.66101pt.
 
-<images/dual2.png, id=205, 448.67625pt x 511.9125pt>
+<images/dual2.png, id=212, 448.67625pt x 511.9125pt>
 File: images/dual2.png Graphic file (type png)
  <use images/dual2.png>
-Package pdftex.def Info: images/dual2.png used on input line 405.
+Package pdftex.def Info: images/dual2.png used on input line 458.
 (pdftex.def)             Requested size: 112.11026pt x 127.9075pt.
 
-<images/dual3.png, id=206, 446.66875pt x 482.80376pt>
+<images/dual3.png, id=213, 446.66875pt x 482.80376pt>
 File: images/dual3.png Graphic file (type png)
  <use images/dual3.png>
-Package pdftex.def Info: images/dual3.png used on input line 411.
+Package pdftex.def Info: images/dual3.png used on input line 464.
 (pdftex.def)             Requested size: 112.11026pt x 121.17949pt.
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
-
- []
-
 [12 <./images/dual1.png> <./images/dual2.png> <./images/dual3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
  []
 
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 459.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 459.
-
-
-LaTeX Warning: Citation `bre' on page 13 undefined on input line 464.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 512.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 512.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 512.
+
+
+LaTeX Warning: Citation `bre' on page 13 undefined on input line 517.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 
  []
 
-<images/Figure_1.png, id=237, 489.2679pt x 486.3771pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
+
+ []
+
+<images/Figure_1.png, id=239, 489.2679pt x 486.3771pt>
 File: images/Figure_1.png Graphic file (type png)
 
 <use images/Figure_1.png>
-Package pdftex.def Info: images/Figure_1.png used on input line 484.
+Package pdftex.def Info: images/Figure_1.png used on input line 537.
 (pdftex.def)             Requested size: 226.48413pt x 225.14627pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
-<images/Figure_2.png, id=238, 489.2679pt x 486.3771pt>
+<images/Figure_2.png, id=244, 489.2679pt x 486.3771pt>
 File: images/Figure_2.png Graphic file (type png)
 
 <use images/Figure_2.png>
-Package pdftex.def Info: images/Figure_2.png used on input line 496.
+Package pdftex.def Info: images/Figure_2.png used on input line 549.
 (pdftex.def)             Requested size: 149.48035pt x 148.59341pt.
 
-<images/Figure_4.png, id=239, 489.2679pt x 486.3771pt>
+<images/Figure_4.png, id=245, 489.2679pt x 486.3771pt>
 File: images/Figure_4.png Graphic file (type png)
 
 <use images/Figure_4.png>
-Package pdftex.def Info: images/Figure_4.png used on input line 502.
+Package pdftex.def Info: images/Figure_4.png used on input line 555.
 (pdftex.def)             Requested size: 149.48035pt x 148.59341pt.
- <images/dual4.png, id=240, 511.9125pt x 505.89pt>
+ <images/dual4.png, id=246, 511.9125pt x 505.89pt>
 File: images/dual4.png Graphic file (type png)
 
 <use images/dual4.png>
-Package pdftex.def Info: images/dual4.png used on input line 508.
+Package pdftex.def Info: images/dual4.png used on input line 561.
 (pdftex.def)             Requested size: 149.48035pt x 147.71556pt.
- [14 <./images/Figure_1.png>]
-<images/Figure_5.png, id=247, 489.2679pt x 486.3771pt>
+ <images/Figure_5.png, id=247, 489.2679pt x 486.3771pt>
 File: images/Figure_5.png Graphic file (type png)
 
 <use images/Figure_5.png>
-Package pdftex.def Info: images/Figure_5.png used on input line 520.
+Package pdftex.def Info: images/Figure_5.png used on input line 573.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
 
 <images/Figure_6.png, id=248, 489.2679pt x 486.3771pt>
 File: images/Figure_6.png Graphic file (type png)
 
 <use images/Figure_6.png>
-Package pdftex.def Info: images/Figure_6.png used on input line 526.
+Package pdftex.def Info: images/Figure_6.png used on input line 579.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
-
-<images/Figure_7.png, id=249, 489.2679pt x 486.3771pt>
+ [15 <./images/Figure_1.png> <./images/Figure_2.png> <./images/Figure_4.png> <.
+/images/dual4.png>]
+<images/Figure_7.png, id=259, 489.2679pt x 486.3771pt>
 File: images/Figure_7.png Graphic file (type png)
 
 <use images/Figure_7.png>
-Package pdftex.def Info: images/Figure_7.png used on input line 537.
+Package pdftex.def Info: images/Figure_7.png used on input line 590.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
 
-<images/Figure_8.png, id=250, 489.2679pt x 486.3771pt>
+<images/Figure_8.png, id=260, 489.2679pt x 486.3771pt>
 File: images/Figure_8.png Graphic file (type png)
 
 <use images/Figure_8.png>
-Package pdftex.def Info: images/Figure_8.png used on input line 543.
+Package pdftex.def Info: images/Figure_8.png used on input line 596.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
- [15 <./images/Figure_2.png> <./images/Figure_4.png> <./images/dual4.png> <./im
-ages/Figure_5.png> <./images/Figure_6.png>]
-<images/Figure_9.png, id=262, 489.2679pt x 486.3771pt>
+
+<images/Figure_9.png, id=261, 489.2679pt x 486.3771pt>
 File: images/Figure_9.png Graphic file (type png)
 
 <use images/Figure_9.png>
-Package pdftex.def Info: images/Figure_9.png used on input line 555.
+Package pdftex.def Info: images/Figure_9.png used on input line 608.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
 
-<images/Figure_11.png, id=263, 489.2679pt x 486.3771pt>
+<images/Figure_11.png, id=262, 489.2679pt x 486.3771pt>
 File: images/Figure_11.png Graphic file (type png)
 
 <use images/Figure_11.png>
-Package pdftex.def Info: images/Figure_11.png used on input line 561.
+Package pdftex.def Info: images/Figure_11.png used on input line 614.
 (pdftex.def)             Requested size: 181.18454pt x 180.11256pt.
-
-<images/Figure_14.png, id=264, 489.2679pt x 486.3771pt>
+ [16 <./images/Figure_5.png> <./images/Figure_6.png> <./images/Figure_7.png> <.
+/images/Figure_8.png>]
+<images/Figure_14.png, id=273, 489.2679pt x 486.3771pt>
 File: images/Figure_14.png Graphic file (type png)
 
 <use images/Figure_14.png>
-Package pdftex.def Info: images/Figure_14.png used on input line 573.
+Package pdftex.def Info: images/Figure_14.png used on input line 626.
 (pdftex.def)             Requested size: 203.83434pt x 202.62941pt.
 
-<images/Figure_13.png, id=265, 489.2679pt x 486.3771pt>
+<images/Figure_13.png, id=274, 489.2679pt x 486.3771pt>
 File: images/Figure_13.png Graphic file (type png)
 
 <use images/Figure_13.png>
-Package pdftex.def Info: images/Figure_13.png used on input line 579.
+Package pdftex.def Info: images/Figure_13.png used on input line 632.
 (pdftex.def)             Requested size: 203.83434pt x 202.62941pt.
- [16 <./images/Figure_7.png> <./images/Figure_8.png> <./images/Figure_9.png> <.
-/images/Figure_11.png>]
-<images/parcels.png, id=276, 602.25pt x 678.535pt>
+ <images/parcels.png, id=275, 602.25pt x 678.535pt>
 File: images/parcels.png Graphic file (type png)
- <use images/parcels.png>
-Package pdftex.def Info: images/parcels.png used on input line 592.
-(pdftex.def)             Requested size: 271.7837pt x 306.21799pt.
 
-[17 <./images/Figure_14.png> <./images/Figure_13.png> <./images/parcels.png>]
+<use images/parcels.png>
+Package pdftex.def Info: images/parcels.png used on input line 645.
+(pdftex.def)             Requested size: 271.7837pt x 306.21799pt.
+ [17 <./images/Figure_9.png> <./images/Figure_11.png> <./images/Figure_14.png> 
+<./images/Figure_13.png>]
 <images/parcels_2.png, id=287, 621.32124pt x 678.535pt>
 File: images/parcels_2.png Graphic file (type png)
 
 <use images/parcels_2.png>
-Package pdftex.def Info: images/parcels_2.png used on input line 601.
+Package pdftex.def Info: images/parcels_2.png used on input line 654.
 (pdftex.def)             Requested size: 271.7837pt x 296.80656pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
+ [18 <./images/parcels.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
 
-LaTeX Warning: Citation `bre' on page 18 undefined on input line 610.
+LaTeX Warning: Citation `bre' on page 19 undefined on input line 663.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
 No file main.bbl.
-[18 <./images/parcels_2.png>]
+[19 <./images/parcels_2.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (38.43079pt too wide) in paragraph at lines 632--633
+Overfull \hbox (38.43079pt too wide) in paragraph at lines 685--686
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] 
  []
 
 
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 633--634
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 686--687
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.93085pt too wide) in paragraph at lines 646--647
+Overfull \hbox (6.93085pt too wide) in paragraph at lines 699--700
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][] 
  []
 
 
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 647--648
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 700--701
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.63086pt too wide) in paragraph at lines 649--650
+Overfull \hbox (0.63086pt too wide) in paragraph at lines 702--703
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 658--659
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 711--712
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 659--660
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 712--713
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 674--675
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 727--728
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[19
+[20
 
 ]
-Overfull \hbox (44.73077pt too wide) in paragraph at lines 681--683
+Overfull \hbox (44.73077pt too wide) in paragraph at lines 734--736
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
 
  []
 
 
-Overfull \hbox (44.73077pt too wide) in paragraph at lines 710--711
+Overfull \hbox (44.73077pt too wide) in paragraph at lines 763--764
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.93085pt too wide) in paragraph at lines 711--712
+Overfull \hbox (6.93085pt too wide) in paragraph at lines 764--765
 [][][][][][][][][][][][][][][][][][][] 
  []
 
-[20]
-Overfull \hbox (25.83081pt too wide) in paragraph at lines 732--733
+[21]
+Overfull \hbox (25.83081pt too wide) in paragraph at lines 785--786
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] 
  []
 
 
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 733--734
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 786--787
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (6.93085pt too wide) in paragraph at lines 753--755
+Overfull \hbox (6.93085pt too wide) in paragraph at lines 806--808
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (13.23083pt too wide) in paragraph at lines 761--762
+Overfull \hbox (13.23083pt too wide) in paragraph at lines 814--815
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.53082pt too wide) in paragraph at lines 763--764
+Overfull \hbox (19.53082pt too wide) in paragraph at lines 816--817
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.63086pt too wide) in paragraph at lines 768--769
+Overfull \hbox (0.63086pt too wide) in paragraph at lines 821--822
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[21] [22]
-<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png, id=505, 
+[22] [23]
+<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png, id=511, 
 747.49854pt x 357.80736pt>
 File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png Grap
 hic file (type png)
 
 <use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png>
 Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
-ntis_Fig_1.png used on input line 824.
+ntis_Fig_1.png used on input line 877.
 (pdftex.def)             Requested size: 339.7262pt x 162.62244pt.
 
-<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png, id=506, 
+<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png, id=512, 
 721.28294pt x 119.74147pt>
 File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png Grap
 hic file (type png)
 
 <use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png>
 Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
-ntis_Fig_2.png used on input line 831.
+ntis_Fig_2.png used on input line 884.
 (pdftex.def)             Requested size: 339.7262pt x 56.40091pt.
 
-<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png, id=507, 
+<images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png, id=513, 
 734.745pt x 376.93765pt>
 File: images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png Grap
 hic file (type png)
 
 <use images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png>
 Package pdftex.def Info: images/Solutio_problematis_ad_geometriam_situs_pertine
-ntis_Fig_3.png used on input line 839.
+ntis_Fig_3.png used on input line 892.
 (pdftex.def)             Requested size: 339.7262pt x 174.29066pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 898.
 
-[23 <./images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png> <.
+[24 <./images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_1.png> <.
 /images/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_2.png> <./image
 s/Solutio_problematis_ad_geometriam_situs_pertinentis_Fig_3.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 898.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 898.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 898.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7243D65EAA161E9FC4B9CA9A44B6D1DC;1517.
+(rerunfilecheck)             Checksum: 4FC087A225F888FCCBFE3E602DCD6EBD;1454.
 
 
 LaTeX Warning: There were undefined references.
@@ -1554,13 +1575,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 898.
  ) 
 Here is how much of TeX's memory you used:
- 10127 strings out of 493029
- 145498 string characters out of 6136235
+ 10135 strings out of 493029
+ 145678 string characters out of 6136235
  296206 words of memory out of 5000000
- 13224 multiletter control sequences out of 15000+600000
+ 13230 multiletter control sequences out of 15000+600000
  9885 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,43p,1721b,1976s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1579,10 +1600,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (23 pages, 5622246 bytes).
+Output written on main.pdf (24 pages, 8946248 bytes).
 PDF statistics:
- 628 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
- 280 named destinations out of 1000 (max. 500000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 536 compressed objects within 6 object streams
+ 281 named destinations out of 1000 (max. 500000)
  317 words of extra memory for PDF output out of 10000 (max. 10000000)
 
